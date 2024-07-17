@@ -1,0 +1,113 @@
+@charset "EUC-JP";
+ body{
+	background-color: #CCCC99;
+	margin: 5px 125px 0 0;
+}*{
+	margin: 0;
+}
+
+ #HEAD{
+	background-color: #669933;
+	margin: 0;
+}h1{
+	background-color: #669933;
+	text-align: right;
+	margin: 0;
+	padding: 0.4em 1em;
+}#HEAD p{
+	text-align: center;
+	margin: 0;
+	padding: 0.3em;
+	color: #FFFFFF;
+}
+
+
+
+ #BODY{
+	margin: 0;
+}h2{
+	background-color: #666633;
+	margin: 0;
+	padding: 10px 0.7em;
+	color: #CCFFCC;
+}h3{
+	background-color: CCCC33;
+	margin: 0 0 0 0;
+}h4{
+	margin: 0;
+	padding: 0 1em;
+}#BODY ul{
+	margin: 0;
+	padding: 10px 2em;
+}#BODY ul:before{
+	content: "иж";
+}#BODY li{
+	display: inline;
+	margin: 0;
+}#BODY li:after{
+	content: "/";
+}
+
+ dl{
+	padding: 10px;
+}dt{
+	font-weight: bold;
+}dd{
+	margin: 0 0 0 1em;
+	text-decoration: none;
+}
+
+ #FOOT{
+	background-color: #666633;
+	color: #FFFFCC;
+}address{
+	text-align: center;
+	font-weight: bold;
+	font-style: normal;
+	font-size: small;
+}
+
+
+ ul#IMG li{
+	list-style-type: none;
+	position: fixed;
+}ul#IMG li:hover{
+	border: 2px solid;
+}li#WX310KS{
+	top: 5px;
+	right: 1px;
+}li#OPERA{
+	top: 53px;
+	right: 1px;
+}li#MTASC{
+	top: 118px;
+	right: 1px;
+}li#PARAFLA{
+	top: 184px;
+	right: 1px;
+}li#NETORAN{
+	top: 255px;
+	right: 1px;
+}ul#IMG li img{
+	border: 0;
+}
+
+ dl#LOG dt{
+	font-weight: bold;
+	padding: 0.5em 0 0 0;
+}dl#LOG dd{
+	margin: 0 0 0 1em;
+	padding: 0 0 0.5em 0;
+	text-decoration: none;
+}
+ p{
+	text-indent: 1em;
+	padding: 0.5em 1em;
+}
+
+ li{
+	margin: 10px 0 10px 2em;
+	text-decoration: none;
+}li:hover{
+	text-decoration: underline;
+}

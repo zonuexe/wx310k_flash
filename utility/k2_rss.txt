@@ -1,0 +1,42 @@
+京2用　RSSリーダ説明書　by 128
+ver1.0
+
+■xmlの設定
+
+・<feed>-<item>ノード　※追加でいくらでも増やせます。
+　title：フィードのメニュー表示名
+　href：フィードのURL
+
+・<setting>-<animation>ノード
+　value："true"でアニメーションON、"false"でOFF
+
+・<setting>-<background>ノード
+　src：背景に使用するイメージのパス（jpg）
+
+・<setting>-<channelColor>ノード
+　text：チャンネルメニューの文字色（0x+HEX値表記）白は"0xFFFFFF"、黒は"0x000000"
+　textOn：チャンネルメニューのオンマウス時文字色（0x+HEX値表記）
+　highlight：チャンネルメニューハイライト時のカラー。1～100で指定※。
+　highlightAlpha：チャンネルメニューハイライトの透明度。0～100で指定。
+
+・<setting>-<entryColor>ノード
+　date：エントリー日付の文字色（0x+HEX値表記）
+　title：エントリータイトルの文字色（0x+HEX値表記）
+　description：エントリー本文の文字色（0x+HEX値表記）
+　highlight：エントリーハイライト時のカラー。1～100で指定※。
+　highlightAlpha：エントリーハイライトの透明度。0～100で指定。
+
+
+　※highlightの値は以下のように設定ください。15であれば水色と緑の中間色になります。
+　　0：青
+　　10：水色
+　　20：緑
+　　30：黄色
+　　40：オレンジ
+　　50：赤
+　　60：紫
+　　70：白
+　　80：黒
+　　90：白塗りつぶし
+　　100：黒塗りつぶし
+
