@@ -2,4 +2,6 @@
 
 このリポジトリは2chのWillcom Flashアプリスレッドで公開されたアプリの保管庫です。
 
-著作権は原著作者に留保されます。 ([No License](https://choosealicense.com/no-permission/))
+> このサイトでは2ch＠携帯ゲーム板 Willcom Flashアプリスレッドで公開された名無し(匿名)の作者による作品を再配布しています。公開されているアプリは誰でも自由に利用することができますが、何らかの不具合が発生した場合、その性質上、保管庫管理人及び作者は一切責任を負うことができません。自己責任でご利用ください。
+
+著作権は原著作者に留保されます ([No License](https://choosealicense.com/no-permission/))
